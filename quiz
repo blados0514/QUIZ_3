@@ -5,3 +5,6 @@ CREATE TABLESPACE quiz_manana DATAFILE
 'quiz_manana_2' SIZE 30M,
 'quiz_manana_3' SIZE 30M;
 
+CREATE PROFILE estudiante_quiz LIMIT
+IDLE_TIME 15;
+
